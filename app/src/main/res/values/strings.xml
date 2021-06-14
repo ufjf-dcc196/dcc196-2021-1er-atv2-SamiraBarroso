@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Exemplo02</string>
+    <string name="titulo">Quinto Kazekage da Aldeia Oculta da Areia</string>
+    <string name="nome">Gaara da Areia</string>
+    <string name="descricao">Gaara (我爱羅, Gaara) é um personagem fictício do anime Naruto. Ele é um shinobi da Aldeia Oculta da Areia
+                            e é o irmão de Temari e Kankurō, e são filhos do Yondaime Kazekage. Gaara era e Jinchūriki do Shukaku, ganhando
+                            o apelido de "Gaara do Deserto" (砂瀑の我愛羅, Sabaku no Gaara). O Shukaku foi selado em seu corpo no dia de seu
+                            nascimento, um procedimento que resultou na morte de sua mãe. Considerado como um monstro pela vila e sem
+                            ninguém para amá-lo, Gaara passou a desprezar o mundo e começou contando apenas com sua própria força.
+                            Este poder de auto-amor é mais tarde derrotado pela dedicação inabalável de Naruto Uzumaki por seus amigos.
+                            Desse ponto em diante, Gaara começa a seguir o método de Naruto e muda as opiniões de Sunagakure com relação a ele.
+                            Ele eventualmente se torna o Quinto Kazekage (五代目風影, Godaime Kazekage; Literalmente significa "Quinta Sombra do Vento"),
+                            uma posição que ele mantém, mesmo depois de Shukaku ser removido de seu corpo pela Akatsuki.</string>
 </resources>

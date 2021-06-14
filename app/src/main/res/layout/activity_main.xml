@@ -8,12 +8,12 @@
 
     <TextView
         android:id="@+id/nome"
-        android:layout_width="341dp"
-        android:layout_height="52dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
         android:layout_marginLeft="32dp"
         android:layout_marginTop="32dp"
         android:layout_marginRight="32dp"
-        android:text="Gaara da Areia"
+        android:text="@string/nome"
         android:textColor="#BF2020"
         android:textSize="34sp"
         android:textStyle="bold"
@@ -23,11 +23,11 @@
 
     <TextView
         android:id="@+id/titulo"
-        android:layout_width="341dp"
-        android:layout_height="54dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Quinto Kazekage da Aldeia Oculta da Areia"
-        android:textSize="24sp"
+        android:text="@string/titulo"
+        android:textSize="22sp"
         app:layout_constraintEnd_toEndOf="@+id/nome"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -36,21 +36,21 @@
         app:layout_constraintTop_toBottomOf="@+id/nome" />
 
     <ScrollView
-        android:layout_width="341dp"
-        android:layout_height="529dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:layout_marginTop="16dp"
         android:layout_marginBottom="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/titulo"
         app:layout_constraintStart_toStartOf="@+id/titulo"
-        app:layout_constraintTop_toBottomOf="@+id/titulo"
-        app:layout_constraintVertical_bias="0.916">
+        app:layout_constraintTop_toBottomOf="@+id/titulo">
 
         <TextView
             android:id="@+id/descricao"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:text="@string/descricao"
+            android:textSize="18sp" />
     </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
